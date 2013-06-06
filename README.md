@@ -18,7 +18,12 @@ Requirements
 * Unix based host system
 * [Lots of free RAM](http://lmgtfy.com/?q=computer+memory+upgrade)
 * [A local NFS server](http://devblog.alexsapps.com/2012/11/solution-to-vagrant-up-host-class-is.html)
-* No locally running MySQL instance (or run it on a port other than 3306)
+
+Anti-requirements
+-----------------
+
+* You must not have a locally running MySQL instance on port 3306
+* If you already have a precise32 or precise64 box available for Vagrant, consider `vagrant box remove`ing it in favour of a fresh download.
 
 
 Installation
