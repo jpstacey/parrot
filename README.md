@@ -17,6 +17,8 @@ Requirements
 * [Vagrant](http://www.vagrantup.com/) and [Virtualbox](https://www.virtualbox.org/)
 * Unix based host system
 * [Lots of free RAM](http://lmgtfy.com/?q=computer+memory+upgrade)
+* [A local NFS server](http://devblog.alexsapps.com/2012/11/solution-to-vagrant-up-host-class-is.html)
+* No locally running MySQL instance (or run it on a port other than 3306)
 
 
 Installation
